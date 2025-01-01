@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+.card:hover {
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.card {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: (230, 230, 230); */
+    cursor: pointer;
+    border: 20px, solid, rgb(230, 230, 230);
+}
+
+.img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    /* color: white; */
+}
+
+.box {
+    display: inline-block;
+}
+
+.details,
+.food_price,
+.place_km {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rating {
+    background-color: green;
+    border-radius: 8px;
+    padding: 3px;
+    color: white;
+    position: absolute;
+    right: 5px;
+}
+
+.food,
+.price,
+.place {
+    font-size: 15px;
+    color: gray;
+}
+
+.price {
+    position: absolute;
+    right: 5px;
+}
+
+.km {
+    font-size: 14px;
+}
+
+.image {
+    position: relative;
+}
+
+.off {
+    color: white;
+    height: 20px;
+    width: 150px;
+    background-color: rgba(74, 157, 74, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+
+/* Header */
+
+.first {
+    margin-left: 200px;
+    /* margin-top: 20px; */
+}
+
+.brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(163, 27, 27);
+    margin-right: 100px;
+    /* height: 20px;
+    width: 20px; */
+}
+
+.searching {
+    margin-right: 100px;
+    position: relative;
+    bottom: 10px;
+    height: 25px;
+    width: 350px;
+}
+
+button {
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin: 15px;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    color: rgb(151, 148, 148)
+}
+
+.head {
+    background-color: rgb(230, 230, 230);
+}
+
+.second {
+    /* margin-left: 200px; */
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(230, 230, 230);
+    position: sticky;
+    top: 0px;
+}
+
+.img3 {
+    height: 35px;
+    width: 35px;
+    margin-left: 30px;
+    /* margin-right: 5px; */
+}
+
+.dine,
+.delie,
+.night {
+    font-size: 20px;
+    color: gray;
+    position: relative;
+    bottom: 10px;
+    left: 3px;
+    right: 10px;
+}
+
+.third {
+    height: 400px;
+    background-color: rgb(199, 198, 198);
+    padding-left: 200px;
+    position: static;
+}
+
+.collection {
+    font-size: 40px;
+}
+
+.heading {
+    padding-top: 20px;
+    color: grey;
+}
+
+.photo1:hover,
+.topic:hover,
+.jagah:hover {
+    cursor: pointer;
+}
+
+.photo1 {
+    height: 280px;
+    /* width: 230px; */
+    width: auto;
+    /* position: relative; */
+    border-radius: 10px;
+    padding-right: 25px;
+}
+
+
+/* .photoes {
+    position: relative;
+} */
+
+.topic {
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+    color: rgb(230, 230, 230);
+    left: 10px;
+    font-size: 15px;
+}
+
+.jagah {
+    position: relative;
+    bottom: 45px;
+    z-index: 2;
+    color: rgb(230, 230, 230);
+    left: 10px;
+    font-size: 12px;
+}
+
+
+/* Footer */
+
+.foot {
+    height: 40px;
+    background-color: gray;
+    /* margin-left: 10px;
+     */
+    padding-left: 12px;
+}
+
+.footers {
+    font-size: 40px;
+    /* padding-left: 20px; */
+    padding: 5px;
+}
